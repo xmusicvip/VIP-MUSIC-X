@@ -192,7 +192,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/VIP_DUNIA")
+                            url=f"https://t.me/{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -236,7 +236,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/VIP_DUNIA")
+                            url=f"https://t.me/{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -257,7 +257,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/VIP_DUNIA")
+                            url=f"https://t.me/{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -316,7 +316,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            url=f"https://t.me/{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
