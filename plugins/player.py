@@ -36,7 +36,6 @@ useer = "NaN"
 
 themes = [
     "bgreen",
-    "blue",
     "colorfull",
     "dgreen",
     "hgreen",
@@ -107,7 +106,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: STD KING (@STD_KING)",
+        f"Powered By: 𝄟🐰❤️⃝🇻​​​​​🇮​​​​​≛⃝🇵​​​​​💞🐰𝄟 (@THE_VIP_BOY)",
         (255, 255, 255),
         font=font,
     )
@@ -192,7 +191,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -236,7 +235,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -257,7 +256,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
@@ -316,7 +315,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{SUPPORT_GROUP}")
+                            url=f"{SUPPORT_GROUP}")
                ],
                [        
                     InlineKeyboardButton(
