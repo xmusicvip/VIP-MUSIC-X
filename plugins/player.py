@@ -127,7 +127,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔎 Search ho rha hai jaan🥺 ruko thora🙂 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -182,7 +182,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/cfcad824b691f3c9a5c0e.jpg"
+        thumb_name = "https://telegra.ph/file/94a4b839ca24c1c4d34f3.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -249,7 +249,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/cfcad824b691f3c9a5c0e.jpg"
+            thumb_name = "https://telegra.ph/file/94a4b839ca24c1c4d34f3.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -281,7 +281,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**"
             )
-        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+        await lel.edit("**🔄 Baja rhi hu join kro vc🤩🥳 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
